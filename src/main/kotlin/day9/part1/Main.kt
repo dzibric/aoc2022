@@ -114,7 +114,7 @@ class Field(val field: MutableList<MutableList<Spot>> = mutableListOf()) {
 }
 
 fun main(args: Array<String>) {
-    val input = readFile("src/day10.part2.main/kotlin/day9/input.txt")
+    val input = readFile("src/day10.part2.day11.part2.main/kotlin/day9/input.txt")
     val field = Field()
     input.forEach { movement ->
         val info = movement.split(" ")

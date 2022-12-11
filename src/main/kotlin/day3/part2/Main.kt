@@ -23,6 +23,6 @@ fun createGroups(items: List<String>): List<Group> {
 
 
 fun main(args: Array<String>) {
-    val input = readFile("src/day7.part2.day8.part2.day10.part2.main/kotlin/day3/part2/input.txt")
+    val input = readFile("src/day7.part2.day8.part2.day10.part2.day11.part2.main/kotlin/day3/part2/input.txt")
     println(createGroups(input).sumOf { it.getIntersectingElementsSum() })
 }

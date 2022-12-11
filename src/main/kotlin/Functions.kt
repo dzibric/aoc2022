@@ -19,6 +19,14 @@ fun List<String>.print() {
     }
 }
 
+inline fun <T> Iterable<T>.productOf(selector: (T) -> Int): Int {
+    var sum = 1
+    for (element in this) {
+        sum *= selector(element)
+    }
+    return sum
+}
+
 fun <T>List<List<T>>.getElement(x: Int, y: Int): T {
     val xIndex = when {
         x >= size -> x - size

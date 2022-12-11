@@ -20,7 +20,7 @@ fun createAssignment(input: String): Assignment {
 }
 
 fun main(args: Array<String>) {
-    val input = readFile("src/day7.part2.day8.part2.day10.part2.main/kotlin/day4/part1/input.txt")
+    val input = readFile("src/day7.part2.day8.part2.day10.part2.day11.part2.main/kotlin/day4/part1/input.txt")
     println(input.map {
         val assignments = it.split(",")
         Shift(Pair(createAssignment(assignments[0]), createAssignment(assignments[1])))

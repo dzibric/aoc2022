@@ -15,6 +15,6 @@ fun checkSignal(string: String): Int {
     return 0
 }
 fun main(args: Array<String>) {
-    val input = readFile("src/day8.part2.day10.part2.main/kotlin/day6/input.txt")
+    val input = readFile("src/day8.part2.day10.part2.day11.part2.main/kotlin/day6/input.txt")
     println(checkSignal(input[0]))
 }
