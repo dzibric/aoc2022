@@ -23,7 +23,7 @@ fun directoriesAvailableForDeleting(directory: Directory, size: Long) {
 }
 
 fun main(args: Array<String>) {
-    val input = readFile("src/day8.part2.day10.part2.day11.part2.main/kotlin/day7/input.txt")
+    val input = readFile("src/day8.part2.day10.part2.day11.part2.day13.part1.day12.part1.main/kotlin/day7/input.txt")
     input.forEach {
         decodeLine(it)
     }

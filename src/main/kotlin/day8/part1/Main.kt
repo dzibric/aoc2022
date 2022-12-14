@@ -66,7 +66,7 @@ fun generateGrid(input: List<String>): Grid {
 }
 
 fun main(args: Array<String>) {
-    val input = readFile("src/day10.part2.day11.part2.main/kotlin/day8/input.txt")
+    val input = readFile("src/day10.part2.day11.part2.day13.part1.day12.part1.main/kotlin/day8/input.txt")
     val trees = generateGrid(input)
     println(trees.calculateVisibleTrees())
 }

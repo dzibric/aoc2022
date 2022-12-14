@@ -50,7 +50,7 @@ class RayTube(val signals: MutableList<Signal> = mutableListOf()) {
 }
 
 fun main(args: Array<String>) {
-    val input = readFile("src/main/kotlin/day10/input.txt")
+    val input = readFile("src/day13.part1.day12.part1.main/kotlin/day10/input.txt")
     val rayTube = RayTube()
     input.forEach {
         val inputInfo = it.split(" ")
